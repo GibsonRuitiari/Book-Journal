@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+  <data class="MainActivityBinding">
+  </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:id="@+id/mainActivityCoordinator"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookJournal.ui.MainActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="4dp"
+        android:id="@+id/booksRv"/>
+</RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"
+       android:layout_gravity="end|bottom"
+        android:layout_marginEnd="12dp"
+        app:backgroundTint="@android:color/darker_gray"
+        android:elevation="4dp"
+        app:borderWidth="0dp"
+        android:src="@android:drawable/ic_input_add"
+        app:rippleColor="@android:color/white" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

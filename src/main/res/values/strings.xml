@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KotlinAndroidPractice</string>
+    <string name="reveal_friend">Reveal A Book</string>
+    <string name="features_text">Features of the api</string>
+    <string name="book_description">Book description</string>
+    <string name="book_name">Book Title</string>
+    <string name="book_author">Book author</string>
+    <string name="add_book">save book</string>
+    <string name="retry">Retry</string>
+    <string name="delete">delete book</string>
+    <string name="no_books_yet">No Books Yet!</string>
+
+</resources>

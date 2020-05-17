@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bookName"
+    android:layout_marginTop="10dp"
+    android:hint="Book name"
+    android:importantForAutofill="no"
+    android:inputType="text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bookDescription"
+        android:hint="Book Description"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+</LinearLayout>
